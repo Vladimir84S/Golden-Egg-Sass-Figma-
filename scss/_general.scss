@@ -1,0 +1,36 @@
+$kurale: 'Kurale', serif;
+$os: 'Open Sans', sans-serif;
+$wrap: 1470px;
+$container: 1200px;
+$mc: 0 auto;
+$text: 18px;
+
+// Цвета
+$color: #000;
+$white: #fff;
+$yellow:#E8C300;
+
+
+
+// Миксины
+@mixin flex($jc,$ai){
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: $js;
+    align-items: $ai;
+}
+body {
+    background: $white;
+    font-family: $os;
+    color: $color;
+    font-size: $text;
+}
+.wrapper{
+    max-width: $wrap;
+    margin: $mc;
+    padding: 0 15px;
+}
+.container{
+    max-width: $container;
+    margin: $mc;
+}
