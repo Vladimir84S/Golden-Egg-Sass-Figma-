@@ -16,11 +16,11 @@
     <div class="wrapper">
 
         <section class="home">
-            <!-- <img class="home_img" src="img/dish.jpg" alt=""> -->
-            <!-- <vide class="home_video" src="img/dish.mp4" autoplay loop muted></vide> -->
-            <div class="home_container">
-                <div class="containet">
-                    <nav class="top_menu">
+            <!-- <img class="home__img" src="img/dish.jpg" alt=""> -->
+            <video class="home__video" src="img/dish.mp4" autoplay loop muted></video>
+            <div class="home__container">
+                <div class="container">
+                    <nav class="top-menu">
                         <ul class="top-menu__list">
                             <li class="top-menu__item"><a href="#about">О ресторане</a></li>
                             <li class="top-menu__item"><a href="#team">Команда</a></li>
@@ -32,13 +32,13 @@
                         </ul>
                     </nav>
                 </div>
-                <div class="container home_container-center">
+                <div class="container home__container-center">
                     <div class="time-work">Пн - Пт: 8 - 22, Сб - Вс: 9 - 24</div>
-                    <div class="home-text">
+                    <div class="home__text">
                         <h6>РЕСТОРАН</h6>
                         <h1>GOLDEN EGG</h1>
                         <div class="home__btns">
-                            <a href="#order">Заказать столик</a>
+                            <a href="#order" class="btn-order">Заказать столик</a>
                             <a href="#about">О ресторане</a>
                         </div>
                         <a href="#about" class="arrow__about">
@@ -52,14 +52,54 @@
                             <svg>
                                 <use xlink:href="img/sprite-icons.svg#facebook"></use>
                             </svg>
+                        </a>
+                        <a href="#" target="_blank">
                             <svg>
                                 <use xlink:href="img/sprite-icons.svg#twitter"></use>
                             </svg>
+                        </a>
+                        <a href="#" target="_blank">    
                             <svg>
                                 <use xlink:href="img/sprite-icons.svg#instagram"></use>
                             </svg>
                         </a>
                    </div> 
+                </div>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <div class="container about__container">
+                <div class="about__text">
+                    <h2>О РЕСТОРАНЕ</h2>
+                    <p class="intro">
+                        Волшебная атмосфера, безукоризненное обслуживание, изысканный интерьер и, самое главное, богатейший выбор вкуснейших блюд отменного качества – именно эти характеристики привлекают гостей в наш ресторан
+                    </p>
+                    <p>Официанты этого заведения знают все тонкости приготовления блюд, они подскажут гостям наиболее подходящие для них яства. Тут хорошо знают постоянных клиентов, умело угождая их вкусам.
+                    </p>
+                    <p>Идеально дополняет ресторан уютная кофейня, находящаяся на первом этаже. Чашечка изумительного кофе и сладости от местного кондитера зарядят вас бодростью и позитивной энергией.</p>
+                </div>
+                <div class="about__img">
+                    <img src="img/about-img.jpg" alt="">
+                    <div class="circle"></div>
+                </div>
+            </div>
+        </section>
+        <section class="team" id="team">
+            <div class="container">
+                <h6>НАША КОМАНДА</h6>
+            </div>
+            <div class="container team__container">
+                <div class="team__img">
+                    <img src="img/team-img.jpg" alt="">
+                    <div class="circle"></div>
+                </div>
+                <div class="team__text">
+                    <h2> ШЕФ-ПОВАР</h2>
+                    <p class="intro">
+                    За подбор продуктов и приготовление вкусных  блюд отвечает наш высококвалифицированный шеф-повар. Блюда в его исполнении превращаются в настоящие шедевры. Никто не останется равнодушным к такому непревзойденному сочетанию.  
+                    </p>
+                    <p>Своей работой мы хотим радовать каждого нашего посетителя. Мы гарантируем всем клиентам, что время, проведенное в нашем заведении, будет отличаться особым теплом и изысканным вкусом.
+                    </p>
                 </div>
             </div>
         </section>
