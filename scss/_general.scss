@@ -10,6 +10,8 @@ $color: #000;
 $white: #fff;
 $yellow:#E8C300;
 $gray: #e5e5e5;
+$tabs: #333;
+$tabs-opacity: rgba(51, 51, 51, 0.3);
 $white-opacity: rgba(255, 255, 255, 0.5);
 $black-opacity: rgba(0, 0, 0, 0.5);
 $gray-opacity: rgba(51, 51, 51, 0.5);
@@ -44,6 +46,10 @@ $gray-opacity: rgba(51, 51, 51, 0.5);
     filter: drop-shadow(0px 0px 50px $black-opacity);
     border-radius: 5px;
     -webkit-filter: drop-shadow(0px 0px 50px $black-opacity);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 body {
